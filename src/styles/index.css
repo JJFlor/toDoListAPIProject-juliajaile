@@ -1,45 +1,46 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
-
-body {
-    overflow: hidden;
+.backgroundList{
+    width: 100%;
+    height: 100%;
+    background-color: #640D5F;
+    padding: 40px;
 }
 
-.backgroundList{
-    width:600px;
-    height: 600px;
-    background-color: #BBA2FF;
+.task-container{
+    background-color: #f33474;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 50%;
+    height: 50%;
+    border-radius: 15px;
 }
 
 .title{
-    font-family: 'Times New Roman', Times, serif;
     font-weight:100px;
-    font-size: 80px;
+    font-size: 35px;
+    font-family: sans-serif;
     margin-left:auto;
     margin-right:auto;
-    color: #E9E1E2;
-    margin-top:20px;
+    color: #640D5F;
+    margin-top:2rem;
+    margin-bottom: 20px;
+}
+
+.input-container{
+    position:relative;
+    display: inline-block;
 }
 
 .input{
     width: 450px;
     height: 50px;
     font-size: 20px;
+    font-family: sans-serif;
     padding: 27px;
     list-style: none;
-    border: 1px solid #A54BFF;
-    background-color: #DFE7FF ; 
-    font-family: 'Times New Roman', Times, serif;
+    color: #640D5F;
+    border: 1px solid #640D5F;
+    border-radius: 10px;
+    background-color: #EE66A6 ; 
     font-weight:400px;
 }
 
@@ -47,26 +48,95 @@ body {
     width: 450px;
     height: 50px;
     font-size: 20px;
+    font-family: sans-serif;
     padding: 27px;
     padding-top:10px;
     list-style: none;
-    background-color: #DFE7FF; 
-    font-family: 'Times New Roman', Times, serif;
     font-weight:400px;
     margin-right: 32px;
-    color: #75757D;
-    border: 1px solid #A54BFF;
+    color: #640D5F;
 }
 
 
 .closing-btn{
     border: none;
-    background-color: #DFE7FF;
-    color: #A54BFF;
+    background-color: #f33474;
+    color: #FFEB55;
     float: right;
     display: none;
 }
 
 .submittedInput:hover .closing-btn{
     display:block;
+}
+
+.delete-button{
+    background-color: #EE66A6;
+    color: #640D5F;
+    width: 12rem;
+    height: 3rem;
+    font-family: sans-serif;
+    font-weight:bold;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+}
+
+.delete-button:hover {
+    background-color: #640D5F;
+    color: #f33474;
+}
+.filter-buttons{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.filter-button{
+    background-color: #FFEB55;
+    color: #f33474;
+    width: 8rem;
+    height: 3rem;
+    font-family: sans-serif;
+    font-weight:bold;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.filter-button:hover {
+    background-color: #640D5F;
+    color: #f33474;
+}
+
+.add-button{
+  position: absolute;
+  font-family: sans-serif;
+  right: 0;
+  margin-top: 8px;
+  margin-right:8px;
+  height: 70%; /* Para que el botón cubra toda la altura del input */
+  padding: 0 10px; /* Ajusta el espacio dentro del botón */
+  border: none;
+  background-color: #FFEB55;
+  color: #f33474;
+  cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: #f33474;
+    color: #FFEB55;
+}
+
+.completed-task {
+    text-decoration: line-through;
+    color: black;
+}
+
+.pending-task {
+    font-weight: bold;
+    color: #640D5F;
+}
+
+.checkbox-input{
+    margin-right: 10px;
+
 }

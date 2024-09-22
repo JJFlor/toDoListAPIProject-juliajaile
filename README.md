@@ -1,10 +1,11 @@
-# Hello World with React boilerplate
+# To do list application
 
-Start coding a react application
+React application that allows the user to create a list of tasks, tick the ones that are completed and filter them to see the completed ones and the pending ones, or all of them. The user can also eliminate one task or eliminate all the tasks at once. 
 
-> If you are working locally instead of using codespaces or gitpod, please follow [local installation steps](#local-installation-skip-if-you-are-working-on-codespaces-or-gitpod) and come back to this part of the readme.
+![To do list img](<Screenshot (372).png >)
 
 ## How to start coding?
+> If you are working locally instead of using codespaces or gitpod, please follow [local installation steps](#local-installation-skip-if-you-are-working-on-codespaces-or-gitpod) and come back to this part of the readme.
 
 - Install the packages with `$ npm install`.
 - Run the webpack server with `$ npm run start`
@@ -37,6 +38,11 @@ It takes just 2 minutes to deploy, [click here to start the process](https://git
 
 ### Contributors
 
-This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
+This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors.
 
-You can find other templates and resources like this at the [school github page](https://github.com/4geeksacademy/).
+This To do list app was made by [Júlia Jaile Flores](https://github.com/JJFlor).
+
+### Usage
+
+![ProjectDemo](./src/img/to%20do%20list%20app.gif)
+
